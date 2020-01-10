@@ -16,8 +16,7 @@ $f3 = Base::instance();
 $f3->route('GET /', function(){
     $view = new Template();
 
-    echo"howdy";
-//    echo $view-> render('views/home.html');
+   echo $view-> render('views/home.html');
 });
 
 //Run fat free
